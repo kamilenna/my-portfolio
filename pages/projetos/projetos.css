@@ -48,6 +48,7 @@
   }
   
   .links-projeto a strong i {
+    color: var(--lilas);
     margin-right: 4px;
   }
   
