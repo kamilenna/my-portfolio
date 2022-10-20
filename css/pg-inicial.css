@@ -1,0 +1,30 @@
+ 
+  #home {
+    padding: 1.2rem;
+    height: 100vh;
+  }
+  
+  #apresentacao {
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    min-height: 90vh;
+    text-align: center;
+  }
+  
+  #apresentacao h1 {
+    font-size: 2.2rem;
+    color: var(--lilas);
+  }
+  
+  #apresentacao p {
+    font-size: 1.4rem;
+    width: 200px;
+  }
+  
+  p span {
+    color: var(--lilas);
+  }

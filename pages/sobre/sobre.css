@@ -1,0 +1,84 @@
+#resumo-sobremim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    background-color: var(--preto-principal);
+    padding: 1rem 1rem 2rem 1rem;
+    margin: 2rem auto 0 auto;
+    border-radius: 10px;
+  }
+  
+  #foto-perfil {
+    max-width: 55vh;
+    margin-bottom: 30px;
+  }
+  
+  #foto-perfil img {
+    width: 100%;
+  }
+  
+  .info p {
+    margin-bottom: 20px;
+    max-width: 80vw;
+    text-align: justify;
+    text-indent: 1rem;
+  }
+  
+  .info a {
+    padding: 1rem 3rem;
+    background-color: var(--lilas);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--branco);
+    border-radius: 10px;
+    margin: 2rem auto 0;
+    display: block;
+    text-align: center;
+    max-width: 280px;
+  }
+  
+  .info a:hover {
+    background-color: var(--branco);
+    color: var(--lilas);
+  }
+  
+  .techs-card {
+    width: 90vw;
+    height: 70px;
+  }
+  
+  .gif {
+    display: none;
+  }
+  
+  .destaque {
+    color: var(--lilas);
+  }
+  
+  .card-descricao ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card-descricao .icon-techs {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-descricao .icon-techs i {
+    font-size: 2.5rem;
+    color: var(--lilas);
+    margin: 0 10px 5px 0;
+  }
+  
+  .icon-techs p strong {
+    color: var(--branco);
+    font-size: 1.1rem;
+  }

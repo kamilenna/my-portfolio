@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="../../assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/40a32dcdbe.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&family=Praise&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../css/global.css" />
+    <link rel="stylesheet" href="../contato/contato.css">
+    <link rel="stylesheet" href="../../css/responsividade.css">
+    <title>Contato</title>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <h1>KM</h1>
+      </div>
+      <nav id="menu">
+        <ul>
+          <li>
+            <a href="../../index.html" class="link-page"
+              ><i class="fa-solid fa-house"></i>
+              <p>HOME</p></a
+            >
+          </li>
+          <li>
+            <a href="../sobre/sobre.html" class="link-page"
+              ><i class="fa-solid fa-user"></i>
+              <p>SOBRE</p></a
+            >
+          </li>
+          <li>
+            <a href="../projetos/projetos.html" class="link-page"
+              ><i class="fa-solid fa-briefcase"></i>
+              <p>PROJETOS</p></a
+            >
+          </li>
+          <li>
+            <a href="../contato/contato.html" class="link-page"
+              ><i class="fa-solid fa-phone"></i>
+              <p>CONTATOS</p></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="contato">
+        <div class="title-section">
+          <h2>Fale comigo</h2>
+          <div class="marks mark-1"></div>
+          <div class="marks mark-2"></div>
+        </div>
+
+            <div id="content-contato">
+              <div id="redes">
+                <div class="section-subtitle">
+                  <div class="icon">
+                      <i class="fa-solid fa-at"></i>
+                  </div>
+                  <div class="subtitle">
+                      <h3>Redes</h3>
+                  </div>
+              </div>
+                <ul>
+                  <li>
+                    <a href="https://github.com/kamilenna" target="_blank">
+                      <i class="fa-brands fa-github"></i>
+                      <p>GITHUB</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                      <p>LINKEDIN</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+      
+              <div id="formulario">
+                <div class="section-subtitle">
+                  <div class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div class="subtitle">
+                    <h3>Mande um e-mail</h3>
+                  </div>
+                </div>
+        
+                <form
+                  action="https://formsubmit.co/1c79237efa3167e2c6f3b2e5ef9b9251"
+                  method="POST"
+                  autocomplete="on"
+                >
+                  <label for="name">Nome</label>
+                  <input type="text" name="name" id="name" required  autocomplete="name" maxlength="100" placeholder="Seu Nome"/>
+                  <label for="email">E-mail</label>
+                  <input type="email" name="email" id="email" required  autocomplete="email" maxlength="100" placeholder="exemplo@exemplo.com"/>
+        
+                  <label for="subject">Assunto</label>
+                  <input
+                    type="text"
+                    name="_subject"
+                    id="subject"
+                    required maxlength="150" 
+                    placeholder="Assuno da mensagem"
+                  />
+                  <label for="message">Mensagem</label>
+                  <textarea class="form-control" name="message" id="message" required placeholder="Sua mensagem..."></textarea>
+                  <input type="hidden" name="_next" value="http://127.0.0.1:5501/pages/thanks.html">
+                  <button id="btn-form" type="submit">Enviar</button>
+                </form>
+              </div>
+            </div>
+      </section>
+    </main>
+  </body>
+</html>

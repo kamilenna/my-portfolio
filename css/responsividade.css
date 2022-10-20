@@ -1,0 +1,278 @@
+@media (min-width: 1440px) {
+  #resumo-sobremim, #content-contato{
+    width: 1200px;
+    margin: auto;
+  }
+}
+  
+  @media (min-width: 1024px){
+    body {
+      padding-bottom: 0;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      background-color: var(--preto-principal);
+      height: 100vh;
+      width: 100px;
+      position: fixed;
+      padding: 0.5rem 0;
+    }
+
+
+    #logo {
+      position: absolute;
+      top: 25px;
+    }
+
+    #logo h1 {
+      font-size: 1.8rem;
+    }
+
+    #menu ul {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #menu ul li i {
+      display: flex;
+      font-size: 1.2rem;
+      margin: 10px;
+    }
+
+    .link-page {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1.5rem 1rem;
+      font-weight: 800;
+    }
+
+    #apresentacao {
+      align-items: flex-start;
+      text-align: left;
+      margin-left: 1.5rem;
+    }
+
+    #apresentacao h1 {
+      font-size: 3.8rem;
+    }
+
+    #apresentacao p {
+      font-size: 2.8rem;
+      width: 100%;
+    }
+
+    main {
+      max-width: 100vw;
+      margin-left: 7rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    .marks {
+      height: 5px;
+    }
+
+    .mark-1 {
+      width: 65px;
+    }
+
+    .mark-2 {
+      width: 50px;
+    }
+
+    main {
+      max-width: 85vw;
+      display: block;
+      margin-left: 8rem ;
+    }
+
+    #resumo-sobremim {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    .container {
+      padding: 2rem 2rem 4rem 2rem;
+      max-width: 80vw;
+      width: 1200px;
+    }
+  
+    .descricao {
+      height: 200px;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .gif {
+      display: block;
+      width: 400px;
+      
+    }
+  
+    .gif img {
+      width: 400px;
+      padding-right: 2rem;
+    }
+  
+    .faculdade {
+      max-width: 550px;
+    }
+  
+    .info {
+      margin-left: 40px;
+    }
+  
+    .info p {
+      min-width: 50vh;
+      max-width: 70vh;
+      font-size: 1.1rem;
+      padding-right: 2rem;
+    }
+
+
+    .info a {
+      margin: 2rem 0 0;
+    }
+  
+    button {
+      margin: 0;
+    }
+
+    #content-contato {
+      display: flex;
+      align-items: center;
+    }
+  
+    #btn-form {
+      margin-left: auto;
+    }
+
+    #redes {
+      background-color: var(--preto-terciario);
+      padding: 1.5rem 2rem 0;
+      height: 450px;
+    }
+  
+    #redes ul {
+      flex-direction: column;
+      width: 25vw;
+    }
+
+    #redes ul li{
+      margin-top: 20px;
+    }
+
+    #redes ul li a i {
+      font-size: 3.5rem;
+    }
+
+    #redes ul li a p {
+      font-size: 1.1rem;
+    }
+
+    #formulario {
+      width: 65vw;
+      padding: 0 1rem;
+      margin-left: 2rem;
+    }
+  
+    .thanks-section {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2rem;
+      width: 80vw;
+    }
+  
+    .ilustracao {
+      width: 80vh;
+    }
+  
+    .msg {
+      font-size: 1.5rem;
+    }
+  
+    .btn-back {
+      margin-top: 50px;
+    }
+  
+    .btn-back a{
+      font-size: 1.1rem;
+    }
+
+    footer p {
+      margin-left: 8rem;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .cards-techs {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    #formacao {
+      margin: 50px 0;
+    }
+
+    .techs {
+      width: 170px;
+      height: 60px;
+      margin-right: 10px;
+    }
+
+    .card-descricao .icon-techs i {
+      font-size: 1.5rem;
+    }
+
+    .card-descricao .icon-techs p {
+      font-size: 1rem;
+    }
+
+    .projeto {
+      max-width: 840px;
+    }
+    
+    .card {
+      display: flex;
+      flex-direction: row;
+      height: 270px;
+    }
+
+    .card .card-content {
+      margin-left: 30px;
+    }
+    
+    .card-img {
+      max-width: 320px;
+      max-height: 200px;
+    }
+    
+    .card-img img {
+      width: 100%;
+    }
+
+    .links-projeto {
+      margin-top: 25px;
+    }
+
+    #btn-form {
+      width: 260px;
+    }
+  }
+
+  @media (min-width: 500px) {
+    #menu {
+      width: 50%;
+    }
+  }
+

@@ -1,0 +1,38 @@
+.ilustracao {
+    width: 45vh;
+    display: block;
+    margin: 25px auto 0;
+  }
+  
+  .ilustracao img {
+    width: 100%;
+    
+  }
+  
+  .msg {
+    padding: 2rem 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .msg h1 {
+    color: var(--lilas);
+  }
+  
+  .btn-back {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .btn-back a{
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--lilas);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--branco);
+    cursor: pointer;
+    text-decoration: none;
+  }
