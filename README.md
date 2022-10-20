@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">:woman_technologist: Meu Portfólio</h1>
   
-  <h2 align="center"><a href="#" target="_blank">Acessar projeto</a></h2>
+  <h2 align="center"><a href="https://karlamilenna.netlify.app/index.html" target="_blank">Acessar projeto</a></h2>
 
 # Status
   <h3 align="center">
