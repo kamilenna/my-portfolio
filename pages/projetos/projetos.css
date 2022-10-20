@@ -45,13 +45,13 @@
   
   .links-projeto a {
     text-decoration: none;
-  }
-  
-  .links-projeto a strong i {
     color: var(--lilas);
+  }
+
+  .links-projeto a strong i {
     margin-right: 4px;
   }
-  
-  .links-projeto a strong:hover {
+
+  .links-projeto a:hover {
     color: var(--branco);
   }
