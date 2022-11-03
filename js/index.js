@@ -18,7 +18,7 @@ const projetos = [
     {
       capa: "../../assets/images/Capa-advice-app.png",
       titulo: "Gerador de conselhos",
-      descricao: "Projeto capaz de gerar conselhos aleatoriamente",
+      descricao: "Projeto capaz de gerar conselhos aleatoriamente.",
       techs: "HTML, CSS, Javascript, ReactJs + ViteJs, Consumo de Api com Fetch",
       linkGitHub: "https://github.com/kamilenna/adviceapp",
       linkLive: "https://advicesgeneretor.netlify.app/",
