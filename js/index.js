@@ -16,6 +16,14 @@ const projetos = [
         linkLive: "https://fiber-page.netlify.app/",
     },
     {
+      capa: "../../assets/images/Capa-advice-app.png",
+      titulo: "Gerador de conselhos",
+      descricao: "Projeto capaz de gerar conselhos aleatoriamente",
+      techs: "HTML, CSS, Javascript, ReactJs + ViteJs, Consumo de Api com Fetch",
+      linkGitHub: "https://github.com/kamilenna/adviceapp",
+      linkLive: "https://advicesgeneretor.netlify.app/",
+    },
+    {
       capa: "../../assets/images/Capa-em-breve.png",
       titulo: "&#x1F6A7 Em construção",
       descricao: "Projeto em processo de contrução, em breve estará disponível.",
