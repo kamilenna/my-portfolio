@@ -103,27 +103,8 @@
       width: 1200px;
     }
   
-    .descricao {
-      height: 200px;
-      display: flex;
-      flex-direction: row-reverse;
-      align-items: center;
-      justify-content: space-between;
-    }
-  
-    .gif {
-      display: block;
-      width: 400px;
-      
-    }
-  
-    .gif img {
-      width: 400px;
-      padding-right: 2rem;
-    }
-  
     .faculdade {
-      max-width: 550px;
+      margin-top: 20px;
     }
   
     .info {
@@ -225,9 +206,9 @@
     }
 
     .techs {
-      width: 170px;
+      width: 240px;
       height: 60px;
-      margin-right: 10px;
+      margin-right: 15px;
     }
 
     .card-descricao .icon-techs i {
