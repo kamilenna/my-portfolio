@@ -26,7 +26,7 @@ const projetos = [
     {
       capa: "../../assets/images/Capa-viagens.png",
       titulo: "Landing Page - Agência de viagens",
-      descricao: "Landing Page de uma agência de viagens, onde você poderá ter dicas dos lugares mais populares para conhecer.",
+      descricao: "Landing Page de uma agência de viagens.",
       techs: "HTML, CSS, Javascript, ReactJs + ViteJs, Biblioteca SplideJs",
       linkGitHub: "https://github.com/kamilenna/projetoViagens",
       linkLive: "https://tour-viagens.netlify.app/",
