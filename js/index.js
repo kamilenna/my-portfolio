@@ -25,7 +25,7 @@ const projetos = [
     },
     {
       capa: "../../assets/images/Capa-viagens.png",
-      titulo: "Landing Page - Agência de viagens",
+      titulo: "Agência de viagens",
       descricao: "Landing Page de uma agência de viagens.",
       techs: "HTML, CSS, Javascript, ReactJs + ViteJs, Biblioteca SplideJs",
       linkGitHub: "https://github.com/kamilenna/projetoViagens",
