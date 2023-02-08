@@ -24,6 +24,14 @@ const projetos = [
       linkLive: "https://advicesgeneretor.netlify.app/",
     },
     {
+      capa: "../../assets/images/Capa-viagens.png",
+      titulo: "Landing Page - Agência de viagens",
+      descricao: "Landing Page de uma agência de viagens, onde você poderá planejar sua viagem, ter dicas dos lugares mais populares para conhecer.",
+      techs: "HTML, CSS, Javascript, ReactJs + ViteJs, Biblioteca SplideJs",
+      linkGitHub: "https://github.com/kamilenna/projetoViagens",
+      linkLive: "https://tour-viagens.netlify.app/",
+    },
+    {
       capa: "../../assets/images/Capa-em-breve.png",
       titulo: "&#x1F6A7 Em construção",
       descricao: "Projeto em processo de contrução, em breve estará disponível.",
