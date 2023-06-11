@@ -6,6 +6,7 @@ const projetos = [
     techs: "HTML, CSS",
     linkGitHub: "https://github.com/kamilenna/page404",
     linkLive: "https://kamilenna.github.io/page404/",
+    btnVisible: "visible",
   },
   {
     capa: "../../assets/images/Capa-selfcare.png",
@@ -14,6 +15,7 @@ const projetos = [
     techs: "HTML, CSS, JavaScript",
     linkGitHub: "https://github.com/kamilenna/selfcare-Devchallenge",
     linkLive: "https://selfcare-shop.netlify.app/",
+    btnVisible: "visible",
   },
   {
     capa: "../../assets/images/Capa-fiber.png",
@@ -22,6 +24,7 @@ const projetos = [
     techs: "HTML, CSS, Bootstrap",
     linkGitHub: "https://github.com/kamilenna/Fiber-Challenge",
     linkLive: "https://fiber-page.netlify.app/",
+    btnVisible: "visible",
   },
   {
     capa: "../../assets/images/Capa-advice-app.png",
@@ -30,6 +33,7 @@ const projetos = [
     techs: "HTML, CSS, Javascript, ReactJs + ViteJs, Consumo de Api com Fetch",
     linkGitHub: "https://github.com/kamilenna/adviceapp",
     linkLive: "https://advicesgeneretor.netlify.app/",
+    btnVisible: "visible",
   },
   {
     capa: "../../assets/images/Capa-viagens.png",
@@ -38,6 +42,7 @@ const projetos = [
     techs: "HTML, CSS, Javascript, ReactJs + ViteJs, Biblioteca SplideJs",
     linkGitHub: "https://github.com/kamilenna/projetoViagens",
     linkLive: "https://tour-viagens.netlify.app/",
+    btnVisible: "visible",
   },
   {
     capa: "../../assets/images/Capa-projeto-trailer.png",
@@ -46,6 +51,7 @@ const projetos = [
     techs: "HTML, CSS, Javascript",
     linkGitHub: "https://github.com/kamilenna/projeto-trailer",
     linkLive: "https://kamilenna.github.io/projeto-trailer/",
+    btnVisible: "visible",
   },
   {
     capa: "../../assets/images/Capa-music-player.png",
@@ -54,6 +60,7 @@ const projetos = [
     techs: "ReactJs + ViteJs, Axios, dotenv",
     linkGitHub: "https://github.com/kamilenna/projeto-music-player",
     linkLive: "https://melodyplay.netlify.app/",
+    btnVisible: "visible",
   },
   {
     capa: "../../assets/images/Capa-projeto-my-links.png",
@@ -62,15 +69,34 @@ const projetos = [
     techs: "HTML, CSS",
     linkGitHub: "https://github.com/kamilenna/my-links",
     linkLive: "https://kamilenna.github.io/my-links/",
+    btnVisible: "visible",
   },
   {
-    capa: "../../assets/images/Capa-em-breve.png",
-    titulo: "&#x1F6A7 Em construção",
-    descricao: "Projeto em processo de contrução, em breve estará disponível.",
-    techs: "em breve",
+    capa: "../../assets/images/Capa-projeto-fresco.png",
+    titulo: "Fresco - Restaurante italiano",
+    descricao: "Projeto de site para uma restaurante italiano desenvolvido junto com o canal Curso em Video.",
+    techs: "Wordpress, Editor Gutemberg, Tema Astra, microthemer, WpForms",
     linkGitHub: "#",
-    linkLive: "#",
+    linkLive: "https://frescorestaurante.great-site.net/",
+    btnVisible: "hidden",
   },
+  {
+    capa: "../../assets/images/Capa-projeto-happy-pets.png",
+    titulo: "Happy pets",
+    descricao: "Projeto de um site para um centro de cuidado de animais.",
+    techs: "Wordpress, Editor Elementor, Tema Astra, Microthemer, WpForms",
+    linkGitHub: "#",
+    linkLive: "https://happypets.great-site.net/",
+    btnVisible: "hidden",
+  },
+  // {
+  //   capa: "../../assets/images/Capa-em-breve.png",
+  //   titulo: "&#x1F6A7 Em construção",
+  //   descricao: "Projeto em processo de contrução, em breve estará disponível.",
+  //   techs: "em breve",
+  //   linkGitHub: "#",
+  //   linkLive: "#",
+  // },
 ]
 
 function listarProjetos() {
@@ -96,19 +122,22 @@ function listarProjetos() {
                   </p>
                 </div>
                 <div class="links-projeto">
-                  <a
-                    href="${item.linkGitHub}"
-                    class="icon-git"
-                    target="_blank"
-                    ><strong class="destaque"
-                      ><i class="fa-brands fa-github"></i>CÓDIGO</strong
-                    ></a
-                  >
+                  
                   <a href="${item.linkLive}" target="_blank"
                     ><strong class="destaque">
                       VER PROJETO
                       <i class="fa-solid fa-arrow-right"></i> </strong
                   ></a>
+
+                  <a
+                    href="${item.linkGitHub}"
+                    class="icon-git"
+                    target="_blank"
+                    style="visibility: ${item.btnVisible};"
+                    ><strong class="destaque"
+                      ><i class="fa-brands fa-github"></i>CÓDIGO</strong
+                    ></a
+                  >
                 </div>
               </div>
             </div>
