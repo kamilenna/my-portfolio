@@ -1,6 +1,6 @@
 const projetos = [
   {
-    capa: "../../assets/images/capa-projeto404.png",
+    capa: "../../assets/images/capa-404.png",
     titulo: "PAGE 404 NOT FOUND",
     descricao: "Desafio do Devchallenges: O desafio era construir uma página 404 seguindo as histórias de usuários fornecidas.",
     techs: "HTML, CSS",
@@ -27,7 +27,7 @@ const projetos = [
     btnVisible: "visible",
   },
   {
-    capa: "../../assets/images/Capa-advice-app.png",
+    capa: "../../assets/images/Capa-advice-generetor.png",
     titulo: "Gerador de conselhos",
     descricao: "Projeto capaz de gerar conselhos aleatoriamente.",
     techs: "HTML, CSS, Javascript, ReactJs + ViteJs, Consumo de Api com Fetch",
@@ -36,7 +36,7 @@ const projetos = [
     btnVisible: "visible",
   },
   {
-    capa: "../../assets/images/Capa-viagens.png",
+    capa: "../../assets/images/Capa-tour-agencia.png",
     titulo: "Agência de viagens",
     descricao: "Landing Page de uma agência de viagens.",
     techs: "HTML, CSS, Javascript, ReactJs + ViteJs, Biblioteca SplideJs",
@@ -63,16 +63,7 @@ const projetos = [
     btnVisible: "visible",
   },
   {
-    capa: "../../assets/images/Capa-projeto-my-links.png",
-    titulo: "My Links",
-    descricao: "Um página com links para as minhas redes, inspirada no linktree.",
-    techs: "HTML, CSS",
-    linkGitHub: "https://github.com/kamilenna/my-links",
-    linkLive: "https://kamilenna.github.io/my-links/",
-    btnVisible: "visible",
-  },
-  {
-    capa: "../../assets/images/Capa-projeto-fresco.png",
+    capa: "../../assets/images/Capa-fresco.png",
     titulo: "Fresco - Restaurante italiano",
     descricao: "Projeto de site para uma restaurante italiano desenvolvido junto com o canal Curso em Video.",
     techs: "Wordpress, Editor Gutemberg, Tema Astra, microthemer, WpForms",
@@ -81,7 +72,7 @@ const projetos = [
     btnVisible: "hidden",
   },
   {
-    capa: "../../assets/images/Capa-projeto-happy-pets.png",
+    capa: "../../assets/images/Capa-happy-pets.png",
     titulo: "Happy pets",
     descricao: "Projeto de um site para um centro de cuidado de animais.",
     techs: "Wordpress, Editor Elementor, Tema Astra, Microthemer, WpForms",

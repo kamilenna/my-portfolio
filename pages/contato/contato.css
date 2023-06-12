@@ -21,7 +21,7 @@
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    color: var(--branco);
+    color: var(--preto-principal);
   }
   
   #redes ul li a i {
@@ -51,7 +51,7 @@
     margin-bottom: 20px;
     border: 1px solid var(--lilas);
     border-radius: 10px;
-    background-color: var(--preto-terciario);
+    background-color: #EFEBFA;
     color: var(--branco);
     outline: none;
   }

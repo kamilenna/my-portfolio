@@ -1,19 +1,22 @@
 #cards-projetos {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
   }
   
   .projeto {
     max-width: 350px;
     max-height: 500px;
+    margin: 30px 0;
   }
   
   .card {
     display: flex;
     flex-direction: column;
-    max-height: 480px;
+    height: 550px;
   }
   
   .card-img {
@@ -31,7 +34,13 @@
   }
   
   .card .card-content {
-    flex: 1 1 1 auto;
+    max-width: 320px;
+    height: calc(550px - 200px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+
   }
   
   .card-content p {
@@ -53,5 +62,5 @@
   }
 
   .links-projeto a:hover {
-    color: var(--branco);
+    color: var(--preto-principal);
   }

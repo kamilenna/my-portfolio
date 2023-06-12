@@ -6,7 +6,7 @@
   }
   
   .container {
-    background-color: var(--preto-principal);
+    background-color: #E0CBF5;
     padding: 1rem 1rem 2rem 1rem;
     margin: 2rem auto 0 auto;
     border-radius: 10px;
@@ -49,6 +49,7 @@
   .techs-card {
     width: 90vw;
     height: 70px;
+    
   }
   
   .destaque {
@@ -66,6 +67,7 @@
   .card-descricao .icon-techs {
     display: flex;
     align-items: center;
+   
   }
   
   .card-descricao .icon-techs i{
@@ -80,6 +82,6 @@
   }
   
   .icon-techs p strong {
-    color: var(--branco);
+    color: var(--preto-principal);
     font-size: 1.1rem;
   }

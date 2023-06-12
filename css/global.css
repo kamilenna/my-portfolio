@@ -2,7 +2,8 @@
   --lilas: #6622cc;
   --branco: #fff;
   --preto-principal: #0b0a10;
-  --preto-secundario: #0b0a10f7;
+  /* --preto-secundario: #0b0a10f7; */
+  --preto-secundario: #E0CBF5;
   --preto-terciario: #03010b;
   --fonte-principal: "Poppins", sans-serif;
   --fonte-secundaria: "Praise", cursive;
@@ -16,8 +17,8 @@
 }
 
 body {
-  background-color: var(--preto-secundario);
-  color: var(--branco);
+  background-color: #F0F2F2;
+  color: var(--preto-principal);
   padding-bottom: 3.2rem;
 }
 
@@ -26,7 +27,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--preto-secundario);
+  background: #F0F2F2;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -53,7 +54,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: var(--preto-principal);
+  background-color: #EFEBFA;
   height: 50px;
   width: 100%;
   position: fixed;
@@ -65,6 +66,7 @@ header {
   font-family: var(--fonte-secundaria);
   font-weight: lighter;
   font-size: 1.5rem;
+  color: #6622cc;
 }
 
 #menu ul {
@@ -84,7 +86,7 @@ header {
   display: flex;
   padding: 0.4rem;
   font-weight: 700;
-  color: var(--branco);
+  color: var(--preto-principal);
   text-decoration: none;
 }
 
@@ -126,7 +128,7 @@ h2 {
 }
 
 .container {
-  background-color: var(--preto-principal);
+  background-color: #E0CBF5;
   padding: 1rem 1rem 2rem 1rem;
   margin: 2rem auto 0 auto;
   border-radius: 10px;
@@ -144,6 +146,7 @@ h2 {
   height: 35px;
   border-radius: 5px;
   margin-right: 0.5rem;
+  color: #EFEBFA;
 }
 
 .section-subtitle .icon i {
@@ -153,7 +156,7 @@ h2 {
 
 .techs,
 .card {
-  background-color: var(--preto-terciario);
+  background-color: #EFEBFA;
   border: 1px solid var(--lilas);
   padding: 1rem;
   border-radius: 8px;
