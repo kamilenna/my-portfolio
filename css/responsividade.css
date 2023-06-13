@@ -129,17 +129,16 @@
 
     #content-contato {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
+      flex-direction: row-reverse;
     }
   
-    #btn-form {
+    /* #btn-form {
       margin-left: auto;
-    }
+    } */
 
     #redes {
-      background-color: #E0CBF5;
-      padding: 1.5rem 2rem 0;
-      height: 450px;
+      padding: 0 2rem 0;
     }
   
     #redes ul {
@@ -149,6 +148,9 @@
 
     #redes ul li{
       margin-top: 20px;
+      background-color: #E0CBF5;
+      width: 100%;
+      border-radius: 20px;
     }
 
     #redes ul li a i {
