@@ -33,7 +33,7 @@
   }
   
   #redes ul li a:hover {
-    color: var(--lilas);
+    color: var(--roxo);
   }
   
   .section-subtitle {
@@ -49,9 +49,9 @@
   form input, form textarea {
     padding: 16px;
     margin-bottom: 20px;
-    border: 1px solid var(--lilas);
+    border: 1px solid var(--roxo);
     border-radius: 10px;
-    background-color: #EFEBFA;
+    background-color: var(--branco-gelo);
     color: var(--branco);
     outline: none;
   }
@@ -65,14 +65,9 @@
     height: 60px;
     border: none;
     border-radius: 10px;
-    background-color: var(--lilas);
+    background-color: var(--roxo);
     font-size: 1.2rem;
     font-weight: 700;
     color: var(--branco);
     cursor: pointer;
-  }
-  
-  #btn-form:hover {
-    background-color: var(--branco);
-    color: var(--lilas);
   }

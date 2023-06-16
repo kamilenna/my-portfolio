@@ -1,10 +1,9 @@
 :root {
-  --lilas: #6622cc;
-  --branco: #fff;
+  --roxo: #6622cc;
+  --lilas: #E0CBF5;
+  --branco: #F0F2F2;
+  --branco-gelo: #EFEBFA;
   --preto-principal: #0b0a10;
-  /* --preto-secundario: #0b0a10f7; */
-  --preto-secundario: #E0CBF5;
-  --preto-terciario: #03010b;
   --fonte-principal: "Poppins", sans-serif;
   --fonte-secundaria: "Praise", cursive;
 }
@@ -17,7 +16,7 @@
 }
 
 body {
-  background-color: #F0F2F2;
+  background-color: var(--branco);
   color: var(--preto-principal);
   padding-bottom: 3.2rem;
 }
@@ -27,13 +26,13 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #F0F2F2;
+  background: var(--branco);
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: var(--lilas);
+  background-color: var(--roxo);
   border-radius: 20px;
-  border: 2px solid var(--preto-secundario);
+  border: 2px solid var(--lilas);
 }
 
 canvas {
@@ -54,7 +53,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #EFEBFA;
+  background-color: var(--branco-gelo);
   height: 50px;
   width: 100%;
   position: fixed;
@@ -66,7 +65,7 @@ header {
   font-family: var(--fonte-secundaria);
   font-weight: lighter;
   font-size: 1.5rem;
-  color: #6622cc;
+  color: var(--roxo);
 }
 
 #menu ul {
@@ -91,7 +90,7 @@ header {
 }
 
 .link-page:hover {
-  color: var(--lilas);
+  color: var(--roxo);
   font-weight: 700;
 }
 
@@ -108,7 +107,7 @@ h2 {
 .marks {
   height: 3px;
   width: 45px;
-  background-color: var(--lilas);
+  background-color: var(--roxo);
 }
 
 .mark-1 {
@@ -128,7 +127,7 @@ h2 {
 }
 
 .container {
-  background-color: #E0CBF5;
+  background-color: var(--lilas);
   padding: 1rem 1rem 2rem 1rem;
   margin: 2rem auto 0 auto;
   border-radius: 10px;
@@ -141,12 +140,12 @@ h2 {
 }
 
 .section-subtitle .icon {
-  background-color: var(--lilas);
+  background-color: var(--roxo);
   width: 35px;
   height: 35px;
   border-radius: 5px;
   margin-right: 0.5rem;
-  color: #EFEBFA;
+  color: var(--branco-gelo);
 }
 
 .section-subtitle .icon i {
@@ -156,8 +155,8 @@ h2 {
 
 .techs,
 .card {
-  background-color: #EFEBFA;
-  border: 1px solid var(--lilas);
+  background-color: var(--branco-gelo);
+  border: 1px solid var(--roxo);
   padding: 1rem;
   border-radius: 8px;
   margin: 1.5rem 0 0.3rem 0;
@@ -172,7 +171,7 @@ h2 {
 
 footer p strong a {
   text-decoration: none;
-  color: var(--lilas);
+  color: var(--roxo);
 }
 
 footer p strong a:hover {

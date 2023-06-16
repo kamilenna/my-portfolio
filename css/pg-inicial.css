@@ -1,7 +1,4 @@
- #container-pg-inicial {
-  background-color: var(--preto-secundario);
- }
-  #home {
+ #home {
     padding: 1.2rem;
     height: 100vh;
   }
@@ -19,7 +16,7 @@
   
   #apresentacao h1 {
     font-size: 2.2rem;
-    color: var(--lilas);
+    color: var(--roxo);
   }
   
   #apresentacao p {
@@ -28,5 +25,5 @@
   }
   
   p span {
-    color: var(--lilas);
+    color: var(--roxo);
   }
