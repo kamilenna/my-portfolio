@@ -22,28 +22,10 @@
   }
   
   .info p {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     max-width: 80vw;
     text-align: justify;
     text-indent: 1rem;
-  }
-  
-  .info a {
-    padding: 1rem 3rem;
-    background-color: var(--roxo);
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: var(--branco);
-    border-radius: 10px;
-    margin: 2rem auto 0;
-    display: block;
-    text-align: center;
-    max-width: 280px;
-  }
-  
-  .info a:hover {
-    background-color: var(--branco);
-    color: var(--roxo);
   }
   
   .techs-card {

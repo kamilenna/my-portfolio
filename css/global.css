@@ -48,6 +48,23 @@ canvas {
   background-position: 100% 100%;
 }
 
+.btn-action-page {
+  z-index: 1;
+  padding: 10px 20px;
+  border: 1px solid var(--roxo);
+  color: var(--roxo);
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.btn-action-page:hover {
+  background-color: var(--roxo);
+  color: var(--branco);
+  
+}
+
 /*Menu*/
 header {
   display: flex;
@@ -161,23 +178,3 @@ h2 {
   border-radius: 8px;
   margin: 1.5rem 0 0.3rem 0;
 }
-
-/*footer {
-  text-align: center;
-  max-width: 100%;
-  padding: 1rem 0 0.5rem 0;
-  text-decoration: none;
-}
-
-footer p strong a {
-  text-decoration: none;
-  color: var(--roxo);
-}
-
-footer p strong a:hover {
-  color: var(--branco);
-}
-
-.heart {
-  color: #d81010;
-}*/
