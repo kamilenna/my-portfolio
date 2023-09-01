@@ -27,39 +27,39 @@ const projetos = [
     btnVisible: "visible",
   },
   {
-    capa: "../../assets/images/Capa-selfcare.png",
-    titulo: "Selfcare Store",
-    descricao: "Uma página para exibição de produtos de uma loja online chamada selfcare.",
-    techs: "HTML, CSS, JavaScript",
-    linkGitHub: "https://github.com/kamilenna/selfcare-Devchallenge",
-    linkLive: "https://selfcare-shop.netlify.app/",
-    btnVisible: "visible",
-  },
-  {
-    capa: "../../assets/images/Capa-fiber.png",
-    titulo: "Fiber - Landing page",
-    descricao: "Landing page de um site de gerador de portfólios online.",
-    techs: "HTML, CSS, Bootstrap",
-    linkGitHub: "https://github.com/kamilenna/Fiber-Challenge",
-    linkLive: "https://fiber-page.netlify.app/",
-    btnVisible: "visible",
-  },
-  {
-    capa: "../../assets/images/Capa-advice-generetor.png",
-    titulo: "Gerador de conselhos",
-    descricao: "Projeto capaz de gerar conselhos aleatoriamente.",
-    techs: "HTML, CSS, Javascript, ReactJs + ViteJs, Consumo de Api com Fetch",
-    linkGitHub: "https://github.com/kamilenna/adviceapp",
-    linkLive: "https://advicesgeneretor.netlify.app/",
-    btnVisible: "visible",
-  },
-  {
     capa: "../../assets/images/Capa-tour-agencia.png",
     titulo: "Agência de viagens",
     descricao: "Landing Page de uma agência de viagens.",
     techs: "HTML, CSS, Javascript, ReactJs + ViteJs, Biblioteca SplideJs",
     linkGitHub: "https://github.com/kamilenna/projetoViagens",
     linkLive: "https://tour-viagens.netlify.app/",
+    btnVisible: "visible",
+  },
+  {
+    capa: "../../assets/images/Capa-advice-generetor.png",
+    titulo: "Gerador de conselhos",
+    descricao: "Desafio do Frontend Mentor: Projeto capaz de gerar conselhos aleatoriamente.",
+    techs: "HTML, CSS, Javascript, ReactJs + ViteJs, Consumo de Api com Fetch",
+    linkGitHub: "https://github.com/kamilenna/adviceapp",
+    linkLive: "https://advicesgeneretor.netlify.app/",
+    btnVisible: "visible",
+  },
+  {
+    capa: "../../assets/images/Capa-fiber.png",
+    titulo: "Fiber - Landing page",
+    descricao: "Desafio do CodeWell: Criar uma landing page de um site de gerador de portfólios online.",
+    techs: "HTML, CSS, Bootstrap",
+    linkGitHub: "https://github.com/kamilenna/Fiber-Challenge",
+    linkLive: "https://fiber-page.netlify.app/",
+    btnVisible: "visible",
+  },
+  {
+    capa: "../../assets/images/Capa-selfcare.png",
+    titulo: "Selfcare Store",
+    descricao: "Desafio do DevChanllenge: Criar uma página para exibição de produtos de uma loja online chamada selfcare.",
+    techs: "HTML, CSS, JavaScript",
+    linkGitHub: "https://github.com/kamilenna/selfcare-Devchallenge",
+    linkLive: "https://selfcare-shop.netlify.app/",
     btnVisible: "visible",
   },
   {
@@ -114,13 +114,6 @@ function listarProjetos() {
                   </p>
                 </div>
                 <div class="links-projeto">
-                  
-                  <a href="${item.linkLive}" target="_blank"
-                    ><strong class="destaque">
-                      VER PROJETO
-                      <i class="fa-solid fa-arrow-right"></i> </strong
-                  ></a>
-
                   <a
                     href="${item.linkGitHub}"
                     class="icon-git"
@@ -130,6 +123,12 @@ function listarProjetos() {
                       ><i class="fa-brands fa-github"></i>CÓDIGO</strong
                     ></a
                   >
+
+                  <a href="${item.linkLive}" target="_blank"
+                    ><strong class="destaque">
+                      VER PROJETO
+                      <i class="fa-solid fa-arrow-right"></i> </strong
+                  ></a>
                 </div>
               </div>
             </div>
