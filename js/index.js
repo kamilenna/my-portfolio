@@ -1,9 +1,9 @@
 const projetos = [
   {
-    capa: "../../assets/images/capa-cake-top.png",
+    capa: "../../assets/images/capa-caketop.png",
     titulo: "Cake Top - Confeitaria Gourmet",
     descricao: "Site para uma confeitaria gourmet com cardápio, notícias e conhece mais sobre o estabelecimento.",
-    techs: "Wordpress, Editor Gutemberg, Tema Astra, microthemer",
+    techs: "Wordpress, Editor Elementor, Tema Hello",
     linkGitHub: "#",
     linkLive: "https://caketop.great-site.net/",
     btnVisible: "hidden",
