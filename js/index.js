@@ -1,5 +1,14 @@
 const projetos = [
   {
+    capa: "../../assets/images/capa-escrita-criativa.png",
+    titulo: "Curso de Escrita Criativa",
+    descricao: "Página de vendas para um Curso de escrita Criativa.",
+    techs: "Wordpress, Editor Elementor, Tema Hello",
+    linkGitHub: "#",
+    linkLive: "https://kmprojetos.great-site.net/escritacriativa/",
+    btnVisible: "hidden",
+  },
+  {
     capa: "../../assets/images/capa-caketop.png",
     titulo: "Cake Top - Confeitaria Gourmet",
     descricao: "Site para uma confeitaria gourmet com cardápio, notícias e conhece mais sobre o estabelecimento.",
@@ -80,15 +89,14 @@ const projetos = [
     linkLive: "https://kamilenna.github.io/page404/",
     btnVisible: "visible",
   },
-
-  // {
-  //   capa: "../../assets/images/Capa-em-breve.png",
-  //   titulo: "&#x1F6A7 Em construção",
-  //   descricao: "Projeto em processo de contrução, em breve estará disponível.",
-  //   techs: "em breve",
-  //   linkGitHub: "#",
-  //   linkLive: "#",
-  // },
+  {
+    capa: "../../assets/images/Capa-em-breve.png",
+    titulo: "&#x1F6A7 Em construção",
+    descricao: "Projeto em processo de contrução, em breve estará disponível.",
+    techs: "em breve",
+    linkGitHub: "#",
+    linkLive: "#",
+  },
 ]
 
 function listarProjetos() {
